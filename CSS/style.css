@@ -1,7 +1,7 @@
 :root {
     /* Colors - Light Mode */
     --background: #ffffff;
-    --foreground: #030213;
+    --foreground: #bb8e4a;
     --primary: #030213;
     --primary-foreground: #ffffff;
     --secondary: #f3f3f5;
@@ -583,9 +583,24 @@ p {
   }
 }
 
+
+/* لون الخريطة يتكيف مع الوضع الداكن */
+.dark .map-container {
+  filter: brightness(0.8) contrast(1.2);
+}
+
+/* تأثير عند التحويم */
+.map-container {
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: translateY(-5px);
+}
+
 /* Footer */
 .footer {
-  background-color: var(--foreground);
+  background-color: var(--primary);
   color: var(--background);
   padding: 3rem 1rem 2rem;
   margin-top: 5rem;
