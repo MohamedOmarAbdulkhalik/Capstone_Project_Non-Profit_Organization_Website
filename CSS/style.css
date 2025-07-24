@@ -466,6 +466,9 @@ p {
     font-weight: 700;
     color: var(--foreground);
     margin-bottom: 1rem;
+    background-color: var(--background);
+    border-radius: 10px;
+    margin-bottom: 110px;
 }
 
 @media (min-width: 768px) {

@@ -1,220 +1,274 @@
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-content">
-                <!-- Logo -->
-                <div class="logo">
-                    <div class="logo-icon">
-                        <img src="images/logo.webp" alt="Hope Foundation Logo" width="80" height="120" />
-                    </div>
-                </div>
-
-                <!-- Desktop Navigation Links -->
-                <div class="nav-links">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#our-work" class="nav-link">Our Work</a>
-                    <a href="#our-history" class="nav-link">Our History</a>
-                    <a href="#news" class="nav-link">News</a>
-                    <a href="#news" class="nav-link">Contact Us</a>
-                </div>
-
-                <!-- Dark Mode Toggle -->
-                <button id="theme-toggle" class="theme-toggle">
-                    <svg id="sun-icon" width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none">
-                        <circle cx="12" cy="12" r="4" />
-                        <path d="m12 2 0 2" />
-                        <path d="m12 20 0 2" />
-                        <path d="m4.93 4.93 1.41 1.41" />
-                        <path d="m17.66 17.66 1.41 1.41" />
-                        <path d="m2 12 2 0" />
-                        <path d="m20 12 2 0" />
-                        <path d="m6.34 17.66-1.41 1.41" />
-                        <path d="m19.07 4.93-1.41 1.41" />
-                    </svg>
-                    <svg id="moon-icon" width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-                    </svg>
-                </button>
-
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="mobile-menu-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="4" x2="20" y1="12" y2="12" />
-                        <line x1="4" x2="20" y1="6" y2="6" />
-                        <line x1="4" x2="20" y1="18" y2="18" />
-                    </svg>
-                </button>
+      <div class="nav-container">
+        <div class="nav-content">
+          <!-- Logo -->
+          <div class="logo">
+            <div class="logo-icon">
+              <img
+                src="images/logo.webp"
+                alt="Hope Foundation Logo"
+                width="80"
+                height="120"
+              />
             </div>
+          </div>
 
-            <!-- Mobile Navigation -->
-            <div id="mobile-nav" class="mobile-nav">
-                <a href="#home" class="mobile-nav-link">Home</a>
-                <a href="#our-work" class="mobile-nav-link">Our Work</a>
-                <a href="#our-history" class="mobile-nav-link">Our History</a>
-                <a href="#news" class="mobile-nav-link">News</a>
-            </div>
+          <!-- Desktop Navigation Links -->
+          <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#our-work" class="nav-link">Our Work</a>
+            <a href="#our-history" class="nav-link">Our History</a>
+            <a href="#news" class="nav-link">News</a>
+            <a href="#news" class="nav-link">Contact Us</a>
+          </div>
+
+          <!-- Dark Mode Toggle -->
+          <button id="theme-toggle" class="theme-toggle">
+            <svg
+              id="sun-icon"
+              width="70"
+              height="70"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="display: none"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path d="m12 2 0 2" />
+              <path d="m12 20 0 2" />
+              <path d="m4.93 4.93 1.41 1.41" />
+              <path d="m17.66 17.66 1.41 1.41" />
+              <path d="m2 12 2 0" />
+              <path d="m20 12 2 0" />
+              <path d="m6.34 17.66-1.41 1.41" />
+              <path d="m19.07 4.93-1.41 1.41" />
+            </svg>
+            <svg
+              id="moon-icon"
+              width="70"
+              height="70"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+            </svg>
+          </button>
+
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="mobile-menu-btn">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
         </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-nav" class="mobile-nav">
+          <a href="#home" class="mobile-nav-link">Home</a>
+          <a href="#our-work" class="mobile-nav-link">Our Work</a>
+          <a href="#our-history" class="mobile-nav-link">Our History</a>
+          <a href="#news" class="mobile-nav-link">News</a>
+        </div>
+      </div>
     </nav>
 
     <!-- Main -->
     <main>
-        <!-- Hero Section -->
+      <!-- Hero Section -->
 
-        <section id="home" class="hero-section">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Standing for dignity and equality</h1>
+      <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">Standing for dignity and equality</h1>
 
-                    <a href="https://www.elkara.ma/the-waed-network" class="btn btn-primary black">The Wa’ed Network for
-                        Adolescent Girls Beijing +30</a>
+            <a
+              href="https://www.elkara.ma/the-waed-network"
+              class="btn btn-primary black"
+              >The Wa’ed Network for Adolescent Girls Beijing +30</a
+            >
 
-                    <div class="hero-buttons">
-                        <button class="btn btn-outline gray">Learn More</button>
-                    </div>
-                </div>
+            <div class="hero-buttons">
+              <button class="btn btn-outline gray">Learn More</button>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Sections 1-->
-        <section id="our-work" class="work-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">
-                        Ending violence against women and girls. Ensuring women can
-                        participate in the decisions that affect them.
-                    </h2>
-                    <p class="section-description">
-                        Karama is a network of civil society groups and activists in 13
-                        countries in Africa and the Arab region. We provide an
-                        international platform for women to share skills and knowledge,
-                        and be part of a regional movement.
-                    </p>
-                </div>
+      <!-- Sections 1-->
+      <section id="our-work" class="work-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              Ending violence against women and girls. Ensuring women can
+              participate in the decisions that affect them.
+            </h2>
+            <p class="section-description">
+              Karama is a network of civil society groups and activists in 13
+              countries in Africa and the Arab region. We provide an
+              international platform for women to share skills and knowledge,
+              and be part of a regional movement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2-->
+      <section id="home" class="section-1" style="margin-bottom: 30px">
+        <div class="container">
+          <div class="hero-content">
+            <h2
+              class="section-title"
+            >
+              Beijing +30: Reflections from activists in Africa and the Arab
+              region
+            </h2>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our History Section -->
+      <section id="our-history" class="history-section section-spacing">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Our History</h2>
+            <p class="section-description">
+              Discover our journey, milestones, and continuous commitment to
+              women's rights and empowerment across the Arab region.
+            </p>
+          </div>
+
+          <div class="history-timeline">
+            <!-- History Item 1 -->
+            <div class="history-item">
+              <div class="history-image">
+                <img src="images/L1009660.jpg" alt="Foundation founding" />
+              </div>
+              <div class="history-content">
+                <h3 class="history-title">Our mission</h3>
+                <p class="history-description">
+                  Karama aims to end all kinds of violence against women in the
+                  Arab region. We mobilize women’s influence and participation
+                  across all sectors - political, legal and civil activism - to
+                  address women’s advancement, security, protection, and
+                  participation.
+                </p>
+                <span class="badge">Read More</span>
+              </div>
             </div>
-        </section>
-        <!-- Section 2-->
-        <section id="home" class="section-1" style="margin-bottom: 30px">
-            <div class="container">
-                <div class="hero-content">
-                    <h2 class="section-title" style="
-                background-color: white;
-                border-radius: 10px;
-                margin-bottom: 100px;
-              ">
-                        Beijing +30: Reflections from activists in Africa and the Arab
-                        region
-                    </h2>
-                    <button class="btn btn-primary">Learn More</button>
-                </div>
+
+            <!-- History Item 2 -->
+            <div class="history-item history-reverse">
+              <div class="history-image">
+                <img src="images/IMG-20190410-WA0001.jpg" alt="Team growth" />
+              </div>
+              <div class="history-content">
+                <h3 class="history-title">Our approach</h3>
+                <p class="history-description">
+                  Our approach to change distinguishes us from other
+                  initiatives, as we work from the ground up, emphasizing local
+                  expertise and elevating this to inform national policies,
+                  regional dialogues, and international advocacy. Karama builds
+                  coalitions that address the multi-sectoral causes of
+                  inequality, enhancing activists’ capacity to advocate, lobby,
+                  and raise awareness.
+                </p>
+                <span class="badge">Read More</span>
+              </div>
             </div>
-        </section>
-<!-- Our History Section -->
-<section id="our-history" class="history-section section-spacing">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Our History</h2>
-      <p class="section-description">
-        Discover our journey, milestones, and continuous commitment to women's rights and empowerment across the Arab region.
-      </p>
-    </div>
 
-    <div class="history-timeline">
-      <!-- History Item 1 -->
-      <div class="history-item">
-        <div class="history-image">
-          <img src="images/L1009660.jpg" alt="Foundation founding" />
+            <!-- History Item 3 -->
+            <div class="history-item">
+              <div class="history-image">
+                <img
+                  src="images/IMG-20190429-WA0034.jpg"
+                  alt="Our priorities"
+                />
+              </div>
+              <div class="history-content">
+                <h3 class="history-title">Our priorities</h3>
+                <p class="history-description">
+                  Activists in the Karama network work across Africa and the
+                  Middle East to dismantle legal frameworks that ingrain
+                  inequality, replacing them with modern laws that protect women
+                  and girls. Karama supports its partners to help them achieve
+                  meaningful impact and sustainable results.
+                </p>
+                <span class="badge">Read More</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="history-content">
-          <h3 class="history-title">Our mission</h3>
-          <p class="history-description">
-            Karama aims to end all kinds of violence against women in the Arab region. We mobilize women’s influence and participation across all sectors - political, legal and civil activism - to address women’s advancement, security, protection, and participation.
-          </p>
-          <span class="badge">Read More</span>
-        </div>
-      </div>
-
-      <!-- History Item 2 -->
-      <div class="history-item history-reverse">
-        <div class="history-image">
-          <img src="images/IMG-20190410-WA0001.jpg" alt="Team growth" />
-        </div>
-        <div class="history-content">
-          <h3 class="history-title">Our approach</h3>
-          <p class="history-description">
-            Our approach to change distinguishes us from other initiatives, as we work from the ground up, emphasizing local expertise and elevating this to inform national policies, regional dialogues, and international advocacy. Karama builds coalitions that address the multi-sectoral causes of inequality, enhancing activists’ capacity to advocate, lobby, and raise awareness.
-          </p>
-          <span class="badge">Read More</span>
-        </div>
-      </div>
-
-      <!-- History Item 3 -->
-      <div class="history-item">
-        <div class="history-image">
-          <img src="images/IMG-20190429-WA0034.jpg" alt="Our priorities" />
-        </div>
-        <div class="history-content">
-          <h3 class="history-title">Our priorities</h3>
-          <p class="history-description">
-            Activists in the Karama network work across Africa and the Middle East to dismantle legal frameworks that ingrain inequality, replacing them with modern laws that protect women and girls. Karama supports its partners to help them achieve meaningful impact and sustainable results.
-          </p>
-          <span class="badge">Read More</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-left">
-                <img src="images/logo.webp" alt="Hope Foundation" class="footer-logo" />
-                <p class="footer-description">
-                    Hope Foundation is committed to promoting equality, justice, and dignity across the Arab region.
-                </p>
-            </div>
-
-            <div class="footer-links">
-                <h4 class="footer-heading">Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#our-work">Our Work</a></li>
-                    <li><a href="#our-history">Our History</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-info">
-                <h4 class="footer-heading">Contact</h4>
-                <p>Email: <a href="mailto:info@hope.org">info@hope.org</a></p>
-                <p>Phone: +123 456 789</p>
-                <p>Location: Cairo, Egypt</p>
-            </div>
+      <div class="container footer-container">
+        <div class="footer-left">
+          <img
+            src="images/logo.webp"
+            alt="Hope Foundation"
+            class="footer-logo"
+          />
+          <p class="footer-description">
+            Hope Foundation is committed to promoting equality, justice, and
+            dignity across the Arab region.
+          </p>
         </div>
 
-        <div class="footer-bottom">
-            <p>&copy; 2025 Hope Foundation. All rights reserved.</p>
+        <div class="footer-links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our-work">Our Work</a></li>
+            <li><a href="#our-history">Our History</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+
+        <div class="footer-info">
+          <h4 class="footer-heading">Contact</h4>
+          <p>Email: <a href="mailto:info@hope.org">info@hope.org</a></p>
+          <p>Phone: +123 456 789</p>
+          <p>Location: Cairo, Egypt</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hope Foundation. All rights reserved.</p>
+      </div>
     </footer>
-
-</body>
-<script src="JS/play.js"></script>
-
+  </body>
+  <script src="JS/play.js"></script>
 </html>
